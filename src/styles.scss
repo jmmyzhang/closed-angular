@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@use 'variables' as *;
+
+@font-face {
+    font-family: 'Pixel';
+    src: url(./assets/fonts/PIXEARG_.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PixelBold';
+    src: url(./assets/fonts/PIXEAB__.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    color: var(--text-light);
+    background-color: var(--bg-light);
+    font-family: 'Pixel';
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+}
+
